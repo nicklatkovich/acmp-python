@@ -1,0 +1,1 @@
+print('BLACK'if sum([x-y for x,y in zip(list(map(ord,list(input()))),[65,49])])%2==0 else'WHITE')
